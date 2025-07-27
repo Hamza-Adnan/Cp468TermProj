@@ -1,0 +1,16 @@
+# ----------------- City map: 50 cities on a 0‑100 grid -----------------
+city_coords = C1:81,14; C2:3,94; C3:35,31; C4:28,17; C5:94,13; C6:86,94; C7:69,11; C8:11,75; C9:54,4; C10:3,27; C11:64,77; C12:71,25; C13:91,83; C14:89,64; C15:34,7; C16:25,68; C17:8,24; C18:2,26; C19:92,32; C20:33,30; C21:63,11; C22:71,63; C23:13,46; C24:56,25; C25:29,91; C26:53,2; C27:61,77; C28:91,89; C29:29,85; C30:20,25; C31:9,60; C32:98,3; C33:98,43; C34:5,94; C35:92,84; C36:70,18; C37:26,34; C38:90,39; C39:29,54; C40:43,39; C41:10,20; C42:46,20; C43:47,45; C44:26,85; C45:34,89; C46:87,82; C47:9,77; C48:81,21; C49:68,93; C50:31,20
+
+# ----------------- GA settings (tweak as you like) -----------------
+population_size            = 600
+num_generations            = 2000
+children_per_generation    = 300
+tournament_size            = 7
+
+# Operators (must match names in crossover.py / mutation.py)
+crossover      = order        
+mutation       = inversion    
+mutation_rate  = 0.30
+
+elitism        = 1
+seed           = 42          
