@@ -15,4 +15,5 @@ mutation_rate  = 0.30
 elitism        = 1
 seed           = 42          
 enable_convergence_plot = true
-convergence_png         = curve.png
+convergence_png  = curve.png
+fitness_png  = fit_curve.png
