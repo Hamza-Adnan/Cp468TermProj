@@ -3,7 +3,7 @@ city_coords = C1:81,14; C2:3,94; C3:35,31; C4:28,17; C5:94,13; C6:86,94; C7:69,1
 
 # ----------------- GA settings (tweak as you like) -----------------
 population_size            = 600
-num_generations            = 2000
+num_generations            = 800
 children_per_generation    = 300
 tournament_size            = 7
 
